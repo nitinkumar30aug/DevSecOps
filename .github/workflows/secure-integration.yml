@@ -40,7 +40,7 @@ jobs:
         run: snyk test 
 
       #SAST Scan
-      #- name: Run SAST Scan 
+      - name: Run SAST Scan 
        # run: snyk code test --severity-threshold=high 
 
       # IaC Scan
