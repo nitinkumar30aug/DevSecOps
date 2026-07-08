@@ -36,12 +36,12 @@ jobs:
         #run: snyk whoami
 
        # SCA Scan
-      #- name: Run SCA Scan
-       # run: snyk test 
+      - name: Run SCA Scan
+        run: snyk test 
 
       #SAST Scan
-      - name: Run SAST Scan 
-        run: snyk code test --severity-threshold=high 
+      #- name: Run SAST Scan 
+       # run: snyk code test --severity-threshold=high 
 
       # IaC Scan
       #- name: Run IaC Scan
